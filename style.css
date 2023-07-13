@@ -1,0 +1,41 @@
+:root{
+    --color-white: #ffff;
+    --color-blue: rgb(0, 225, 255);
+    --color-black: rgb(0, 0, 0)
+}
+body{
+    background-color: var(--color-black);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    height:100%;    
+    text-align: center;
+    margin: 250px;
+    color:var(--color-white);
+    display: block;
+    align-items: center;
+    padding: 10px;
+}
+
+button{
+    background:transparent;
+    color: white;
+    border-radius: 3px;
+    border: solid 1px var(--color-blue);
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px;
+    outline: none;
+    }
+#seconds, #tens{
+    font-size:2rem;
+  }
+  
+    button:hover{
+        transition: all 0.5s ease-in-out;
+        background:var(--color-blue);
+        border: solid 1px var(--color-white);
+        color: var(--color-white);
+        cursor: pointer;
+        }
